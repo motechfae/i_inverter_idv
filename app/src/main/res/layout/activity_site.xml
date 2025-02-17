@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toTopOf="@+id/btnPre"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/r11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/r11_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/higood_background_color"
+                        app:srcCompat="@drawable/hi01"></ImageButton>
+
+                    <TextView
+                        android:id="@+id/r11_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="崧良-宏承鋼鐵"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/r12_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/higood_background_color"
+                        app:srcCompat="@drawable/hi01"></ImageButton>
+
+                    <TextView
+                        android:id="@+id/r12_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="東元茂迪觀音廠"></TextView>
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/r21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/r21_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/higood_background_color"
+                        app:srcCompat="@drawable/hi01"></ImageButton>
+
+                    <TextView
+                        android:id="@+id/r21_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="中華航空S棟屋頂太陽光電系統"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/r22_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/higood_background_color"
+                        app:srcCompat="@drawable/hi01"></ImageButton>
+
+                    <TextView
+                        android:id="@+id/r22_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="嘉里大榮-新店"></TextView>
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/r31"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/r31_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/higood_background_color"
+                        app:srcCompat="@drawable/hi01"></ImageButton>
+
+                    <TextView
+                        android:id="@+id/r31_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="中華航空中華航空中華航空中華航空"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r32"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/r32_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/higood_background_color"
+                        app:srcCompat="@drawable/hi01"></ImageButton>
+
+                    <TextView
+                        android:id="@+id/r32_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="中華航空中華航空中華航空中華航空"></TextView>
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/r41"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/r41_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/higood_background_color"
+                        app:srcCompat="@drawable/hi01"></ImageButton>
+
+                    <TextView
+                        android:id="@+id/r41_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="中華航空中華航空中華航空中華航空"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r42"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/r42_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/higood_background_color"
+                        app:srcCompat="@drawable/hi01"></ImageButton>
+
+                    <TextView
+                        android:id="@+id/r42_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="中華航空中華航空中華航空中華航空"></TextView>
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/r51"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/r51_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/higood_background_color"
+                        app:srcCompat="@drawable/hi01"></ImageButton>
+
+                    <TextView
+                        android:id="@+id/r51_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="中華航空中華航空中華航空test"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/r52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/border"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/r52_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@drawable/higood_background_color"
+                        app:srcCompat="@drawable/hi01"></ImageButton>
+
+                    <TextView
+                        android:id="@+id/r52_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="中華航空中華航空中華航空中華航空"></TextView>
+                </LinearLayout>
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnPre"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="上一頁"
+            android:textSize="10sp"></Button>
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:text="下一頁"
+            android:textSize="10sp"></Button>
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tabIndicatorColor="#ff00ff"
+        app:tabTextAppearance="@style/MyCustomTabText"
+        app:tabTextColor="@color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="北"></com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中"></com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="南"></com.google.android.material.tabs.TabItem>
+    </com.google.android.material.tabs.TabLayout>
+
+
+</LinearLayout>

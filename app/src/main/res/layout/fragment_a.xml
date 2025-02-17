@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentA">
+
+    <com.github.aachartmodel.aainfographics.aachartcreator.AAChartView
+        android:id="@+id/aa_chart_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.github.aachartmodel.aainfographics.aachartcreator.AAChartView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:alpha="0.8"
+        android:background="@color/bg_yellow"
+        android:gravity="top|left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtAcum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtMaxEa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtRealEa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtHi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtTmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--
+    <TextView
+        android:id="@+id/txtfrag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment A" />
+
+    <TextView
+        android:id="@+id/txtfrag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello A"
+        android:layout_gravity="bottom"/>
+     -->
+
+</FrameLayout>

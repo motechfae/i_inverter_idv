@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_iinvertericon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_iinvertericon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.I_inverter">
+        <activity android:name=".InverterListAdapterActivity"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".SiteListAdapterActivity"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".SiteListActivity" />
+        <activity android:name=".SiteFuncActivity"
+            android:parentActivityName=".SiteActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SiteActivity" />
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TaiwanActivity"
+            android:label="區域選擇"
+            android:parentActivityName=".LoginActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity" />
+        </activity>
+        <activity
+            android:name=".SiteActivity"
+            android:parentActivityName=".TaiwanActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TaiwanActivity" />
+        </activity>
+        <activity
+            android:name=".SiteMoreFuncActivity"
+            android:label="功能頁面"
+            android:parentActivityName=".SiteActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SiteActivity" />
+        </activity>
+    </application>
+
+</manifest>

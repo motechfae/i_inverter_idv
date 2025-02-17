@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">i-Inverter-idv</string>
+    <string name="title_activity_taiwan">TaiwanActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="text_label_1">Site</string>
+    <string name="text_label_2">Inverter</string>
+    <string name="text_label_3">String</string>
+    <string name="text_label_4">頁面4</string>
+    <string name="text_label_5">頁面5</string>
+    <string-array name="ServerList">
+        <item>Server01</item>
+        <item>Server02</item>
+        <item>Server03</item>
+    </string-array>
+</resources>

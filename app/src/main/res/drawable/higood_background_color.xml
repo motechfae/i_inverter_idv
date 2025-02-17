@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--When Button is in pressed state -->
+    <!-- <item android:state_pressed="true"
+        android:drawable="@drawable/higood_pressed_color" /> -->
+    <!--Default Background Color -->
+    <!-- <item android:drawable="@drawable/higood_default_color" /> -->
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_higood_pressed" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/bg_higood_default" />
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <ImageView
+        android:id="@+id/img_Connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/connect" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_InvSn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O4819700999(1)"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_RelEa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1342 kw" />
+
+        <TextView
+            android:id="@+id/txt_InvUpTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2021/03/10 16:42:00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="right|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_ErrCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|end"
+            android:text="Isolation"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

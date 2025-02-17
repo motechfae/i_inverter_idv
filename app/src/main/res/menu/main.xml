@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/usernmae"
+        android:title="你好，XX"></item>
+    <item
+        android:id="@+id/logout"
+        android:title="登出"></item>
+</menu>

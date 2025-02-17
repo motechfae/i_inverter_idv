@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="309dp"
+    android:layout_height="554dp"
+    android:layout_gravity="center"
+    tools:context=".TaiwanActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/taiwan"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"></ImageView>
+
+    <Button
+        android:id="@+id/btn_north"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="50dp"
+        android:text="北"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></Button>
+
+    <Button
+        android:id="@+id/btn_center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="200dp"
+        android:text="中"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_north"></Button>
+
+    <Button
+        android:id="@+id/btn_south"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="350dp"
+        android:text="南"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/round_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_center"></Button>
+
+</RelativeLayout>
