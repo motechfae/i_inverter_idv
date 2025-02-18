@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "i_inverter"
+rootProject.name = "i_inverter_idv"

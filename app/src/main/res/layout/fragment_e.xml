@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="tw.com.motech.i_inverter.FragmentE">
+    tools:context="tw.com.motech.i_inverter_idv.FragmentE">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
